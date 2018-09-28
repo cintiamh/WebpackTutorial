@@ -1,0 +1,20 @@
+{
+  "name": "WebpackTutorial",
+  "version": "1.0.0",
+  "description": "Step by step tutorial for a Node project.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cintiamh/WebpackTutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cintiamh/WebpackTutorial/issues"
+  },
+  "homepage": "https://github.com/cintiamh/WebpackTutorial#readme"
+}
