@@ -4,6 +4,7 @@
   "description": "Step by step tutorial for a Node project.",
   "main": "src/index.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

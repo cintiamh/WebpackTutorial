@@ -29,6 +29,9 @@ Change the main file path in `package.json`:
 ```json
 {
   "main": "src/index.js",
+  "scripts": {
+    "start": "node ."
+  },
 }
 ```
 
@@ -38,3 +41,28 @@ $ node .
 ```
 
 ## Setting up Docker
+
+Create a `Dockerfile`:
+```
+$ touch Dockerfile
+```
+
+Get a Docker template from the Docker Hub (https://hub.docker.com/explore/):
+[Dockerfile](Dockerfile)
+
+Create a `.dockerignore` file:
+```
+$ touch .dockerignore
+```
+
+[.dockerignore](.dockerignore)
+
+Build your image
+```
+$ docker build -t cintia/node-web-app .
+```
+
+List Docker images:
+```
+$ docker images
+```
