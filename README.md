@@ -66,3 +66,8 @@ List Docker images:
 ```
 $ docker images
 ```
+
+Run the image with detached mode (`-d`) and public port set (`-p`)
+```
+$ docker run -p 49160:8080 -d cintia/node-web-app
+```
